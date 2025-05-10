@@ -35,3 +35,12 @@ main{
         height: 300px;
     }
 }
+/*Media query para tablets*/
+@media (768px <= width <= 991px){
+    .card{
+        height: 430px;
+}   
+}
+.img-Recetas{
+    height: 430px;
+}
