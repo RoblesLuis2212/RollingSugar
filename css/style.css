@@ -46,15 +46,16 @@ main{
     }
     .container-OtrasRecetas{
         background: #dbeeff;
-        height: 450px;
+        height: 500px;
     }
     .cardOtrasRecetas{
-        height: 380px;
+        height: 430px;
         overflow: hidden;
     }
-    .imgOtrasRecetas{
-        height: 200px;   
-    }
+    /* .ImgcardEspecial{
+        height: 320px;
+    } */
+
 }
 .img-Recetas{
     height: 430px;
