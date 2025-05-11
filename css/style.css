@@ -79,11 +79,11 @@ textarea{
     resize: none;
 }
 .gradient-bg {
-  background: linear-gradient(135deg, #4facfe, #00f2fe); /* Azul cielo a celeste */
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
   border-radius: 10px;
 }
 .btn-gradient {
-  background: linear-gradient(45deg, #667eea, #764ba2); /* Púrpura a azul */
+  background: linear-gradient(45deg, #667eea, #764ba2);
   color: white;
   border: none;
 }
@@ -91,3 +91,33 @@ textarea{
 .btn-gradient:hover {
   background: linear-gradient(45deg, #5a67d8, #6b46c1);
 }
+
+/* Reset de márgenes y rellenos específicos para el error 404 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos específicos para la página de error 404 */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Estilo para el número 404 */
+.error-container h1 {
+  font-size: 10rem;
+  margin-bottom: 1rem;
+}
+
+/* Estilo para el mensaje debajo del 404 */
+.error-container p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
