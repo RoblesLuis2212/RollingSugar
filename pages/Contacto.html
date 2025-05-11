@@ -22,7 +22,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand ms-3" href="index.html"
+          <a class="navbar-brand ms-3" href="../index.html"
             ><i class="bi bi-box"></i>RollingSugar</a
           >
           <button
@@ -39,25 +39,89 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/Recetas.html">Recetas</a>
+                <a class="nav-link" href="Recetas.html">Recetas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/Error404.html">Productos</a>
+                <a class="nav-link" href="Error404.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/Contacto.html">Contactos</a>
+                <a class="nav-link active" href="Contacto.html">Contactos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <!--Maquetacion del formulario-->
+      <section class="container mt-5">
+        <h3 class="text-center">Contacto</h3>
+        <form class="border border-light-subtle rounded p-4 mb-3">
+            <div class="mb-3">
+              <label for="NombreyApellido" class="form-label"
+                >Nombre y Apellido</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="NombreyApellido"
+                placeholder="Ej: Juan Peréz"
+                minlength="15"
+                maxlength="60"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="CorreoElectronico" class="form-label"
+                >Correo Electronico</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="CorreoElectronico"
+                placeholder="Ej: JuanPeréz@gmail.com"
+                minlength="10"
+                maxlength="60"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="Telefono" class="form-label"
+                >Telefono</label
+              >
+              <input
+                type="tel"
+                class="form-control"
+                id="Telefono"
+                placeholder="Ej: +543863158750"
+                minlength="8"
+                maxlength="15"
+                required
+              />
+            </div>
+            <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Consulta: </label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Agrega tu consulta de hasta 500 caracteres"
+              minlength="15"
+              maxlength="500"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </section>
+    </main>
     <footer class="bg-primary py-4 text-center text-light">
       <h5 class="fs-4">Seguinos en:</h5>
       <a href="pages/Error404.html" class="link-light fs-1"
