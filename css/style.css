@@ -34,6 +34,9 @@ main{
     .video{
         height: 300px;
     }
+    .btn-gradient{
+        width: 300px;
+    }
 }
 /*Media query para tablets*/
 @media (768px <= width <= 991px){
@@ -52,6 +55,9 @@ main{
         height: 430px;
         overflow: hidden;
     }
+    .btn-gradient{
+        width: 450px;
+    }
     /* .ImgcardEspecial{
         height: 320px;
     } */
@@ -68,4 +74,20 @@ main{
 }
 .container-OtrasRecetas{
     background: #dbeeff;
+}
+textarea{
+    resize: none;
+}
+.gradient-bg {
+  background: linear-gradient(135deg, #4facfe, #00f2fe); /* Azul cielo a celeste */
+  border-radius: 10px;
+}
+.btn-gradient {
+  background: linear-gradient(45deg, #667eea, #764ba2); /* Púrpura a azul */
+  color: white;
+  border: none;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(45deg, #5a67d8, #6b46c1);
 }
